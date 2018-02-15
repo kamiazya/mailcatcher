@@ -7,7 +7,7 @@
 
 Smtp server and Web view for development on Docker.
 
-[Docker hub](https://hub.docker.com/r/kamiazya/mailcatcher/)
+[![dockeri.co](http://dockeri.co/image/kamiazya/mailcatcher)](https://hub.docker.com/r/kamiazya/mailcatcher/)
 
 ## Description
 
