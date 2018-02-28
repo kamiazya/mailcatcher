@@ -30,18 +30,10 @@ When you execute the following command, a mail server is built in port 25, and y
 > 下記のコマンドを実行すると、25番ポートにメールサーバーが建ち、ブラウザで1080番ポートにアクセスするとメールの受信ボックスをみることができます。
 
 ```bash
-docker run -p 1080:1080 -p 25:25 kamiazya/mailcatcher
-```
-
-You can customize expose port by environment variable.
-
-> 環境変数で公開ポートをカスタマイズすることができます。
-
-```bash
-docker run -p 20000:20000 -p 555:555 \
-    -e HTTP_PORT=20000 \
-    -e SMTP_PORT=555 \
-    kamiazya/mailcatcher
+$ docker run -p 1080:1080 -p 25:25 kamiazya/mailcatcher
+Starting MailCatcher
+==> smtp://0.0.0.0:25
+==> http://0.0.0.0:1080
 ```
 
 ## Install
