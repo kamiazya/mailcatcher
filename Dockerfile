@@ -1,4 +1,4 @@
-FROM ruby:2.5.0-alpine3.7
+FROM ruby:2.7.1-alpine3.11
 
 # required by gem install
 RUN apk add --no-cache build-base libxml2-dev libxslt-dev sqlite-dev \
